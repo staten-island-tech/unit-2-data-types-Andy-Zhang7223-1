@@ -26,15 +26,17 @@ y = x.split(" ")
 print(y)
 print(len(y))  """
 
-x = input('Type here')
+""" x = input('Type here')
 madlibs = ["Laughing","Walking","Joke","3.14159265358979323846264338327952884197169393751","Julias Ceaser"]
 verb = madlibs[0]
 secondverb = madlibs[1]
 noun = madlibs[2]
 number = madlibs[3]
 celebrity = madlibs[4]
-input('verb').replace = print(verb)
-""" input('verb') == print (verb)
+print(f"I saw {celebrity} {verb} at a {noun} and it made him mad so {celebrity} {secondverb} the {noun}. I {verb} and checked on the {noun} and it was reapeating error {number} and then it {secondverb} and I {verb} from it. Eventually I ran out of breath and I couldn't see the {noun} anymore.") """
+
+""" input('verb').replace = print(verb)
+input('verb') == print (verb)
 input('secondverb') == print (secondverb)
 input('noun') == print (noun)
 input('number') == print (number)
@@ -45,3 +47,24 @@ if input  (secondverb) print[1]
 if input  (noun) print[2]
 if input  (number) print[3]
 if input  (celebrity) print[4] """
+
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+""" x = "test"
+print(f"hello {x}") """
+
+""" temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+x = input("Type here")
+if x == (input)%2: print("even")
+if x != (input)%2: print ("odd")
