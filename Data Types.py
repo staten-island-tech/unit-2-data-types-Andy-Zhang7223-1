@@ -65,6 +65,15 @@ elif temp == 68:
 else:
     print('cold') """
 
-x = input("Type here")
-if x == (input)%2: print("even")
-if x != (input)%2: print ("odd")
+""" int() == input('what number do you want to check?') 
+if int()%2 == 0:
+    print("even")
+else:
+    print("odd")
+
+("int() turns strings into integers, otherwise this wouldn't load. % gives us a remainder and it checks if the reminder is 0 because if it is it is even since we are dividing by 2") """
+
+billvalue = ["0%","15%","20%","25%"]
+print(billvalue)
+int() == input('Your bill is $10, how much do you want to tip?')
+""" if input(15%)  """
