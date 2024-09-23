@@ -73,7 +73,12 @@ else:
 
 ("int() turns strings into integers, otherwise this wouldn't load. % gives us a remainder and it checks if the reminder is 0 because if it is it is even since we are dividing by 2") """
 
-billvalue = ["0%","15%","20%","25%"]
-print(billvalue)
-int() == input('Your bill is $10, how much do you want to tip?')
-""" if input(15%)  """
+billvalue = ("100")
+print(f'Your bill is ${billvalue}, how was the service?')
+service = ["Great!", "Good.", "Okay...", "Bad:("]
+print(service)
+if (service) == input[3]: print ('0')
+elif (service) == input[2]: print [billvalue]*0.15+[billvalue]
+elif (service) == input[1]: print [billvalue]*0.2+[billvalue]
+elif (service) == input[0]: print [billvalue]*0.25+[billvalue]
+else: print ("I'm assuming you don't want to respond, have a great day.")
