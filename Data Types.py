@@ -77,8 +77,12 @@ billvalue = ("100")
 print(f'Your bill is ${billvalue}, how was the service?')
 service = ["Great!", "Good.", "Okay...", "Bad:("]
 print(service)
-if (service) == input[3]: print ('0')
-elif (service) == input[2]: print [billvalue]*0.15+[billvalue]
-elif (service) == input[1]: print [billvalue]*0.2+[billvalue]
-elif (service) == input[0]: print [billvalue]*0.25+[billvalue]
-else: print ("I'm assuming you don't want to respond, have a great day.")
+input=( )
+if (service[3]):
+    print ('0 tip')
+elif (service[2]):
+    print [billvalue]*0.15 + [billvalue]
+elif (service[1]):
+    print [billvalue]*0.2 + [billvalue]
+elif (service[0]):
+    print [billvalue]*0.25 + [billvalue]
