@@ -87,7 +87,14 @@ elif input == (service[1]):
 elif input == (service[0]):
     print ((billvalue) * 0.25 + (billvalue)) """
 
-number = (12)
-factors = [(number/1-100000)]
-factors.remove(float)
-print(factors)
+""" number = (12)
+for i in range(1,number+1):
+    if number%i == 0:
+        print (i) """
+
+x=50
+y=100
+for i in range(2,x+1):
+    if x%i == 0 and y%i == 0:
+    (i)
+    
