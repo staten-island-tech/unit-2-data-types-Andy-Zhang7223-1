@@ -96,5 +96,4 @@ x=50
 y=100
 for i in range(2,x+1):
     if x%i == 0 and y%i == 0:
-    (i)
-    
+        print(i)
