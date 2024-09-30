@@ -94,6 +94,8 @@ for i in range(1,number+1):
 
 x=50
 y=100
+factor = []
 for i in range(2,x+1):
     if x%i == 0 and y%i == 0:
-        print(i)
+        factor.append(i)
+print(factor[-1])
